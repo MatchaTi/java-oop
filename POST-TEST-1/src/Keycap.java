@@ -11,10 +11,6 @@ class Keycap {
         return material;
     }
 
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
     public String getProfile() {
         return profile;
     }

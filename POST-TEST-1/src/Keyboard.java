@@ -10,36 +10,24 @@ class Keyboard {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getSwitchType() {
+        return this.switchType.getType();
     }
 
-    public Switch getSwitchType() {
-        return switchType;
-    }
-
-    public void setSwitchType(Switch switchType) {
-        this.switchType = switchType;
-    }
-
-    public Keycap getKeycap() {
-        return keycap;
-    }
-
-    public void setKeycap(Keycap keycap) {
-        this.keycap = keycap;
+    public String getKeycap() {
+        return this.keycap.getMaterial();
     }
 
     public void display() {
         System.out.println("----- Keyboard Information -----");
         System.out.println("Name\t\t: " + this.getName());
-        System.out.println("Switch Type\t: " + switchType.getType());
-        System.out.println("Actuation Force\t: " + switchType.getActuationForce());
-        System.out.println("Keycap Material\t: " + keycap.getMaterial());
-        System.out.println("Keycap Profile\t: " + keycap.getProfile());
+        System.out.println("Switch Type\t: " + this.switchType.getType());
+        System.out.println("Actuation Force\t: " + this.switchType.getActuationForce());
+        System.out.println("Keycap Material\t: " + this.keycap.getMaterial());
+        System.out.println("Keycap Profile\t: " + this.keycap.getProfile());
         System.out.println("---------------------------------\n");
     }
 }

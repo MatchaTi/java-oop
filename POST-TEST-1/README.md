@@ -1,18 +1,39 @@
-## Getting Started
+# Post Test 1 - OOP
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Adi Muhammad Syifai
+2309106065
 
-## Folder Structure
+## Class Diagram
 
-The workspace contains two folders by default, where:
+![Class Diagram](/assets/java-oop-1.drawio.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Fitur pada Program
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Menambahkan data Keyboard
+   - Menambahkan data Keyboard dengan memasukkan data berupa `nama`, `switch`, dan `keycap` dari Keyboard.
+2. Menampilkan data Keyboard
+   - Menampilkan data Keyboard yang sudah dimasukkan ke dalam program.
+3. Meng-update data Keyboard
+   - Meng-update data Keyboard dengan memasukkan data berupa `nama`, `switch`, dan `keycap` dari Keyboard.
+4. Menghapus data Keyboard
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Class
 
-## Dependency Management
+1. Keyboard
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+   - Memiliki atribut `nama`, `switch`, dan `keycap`.
+   - Memiliki method `getName()`, `getSwitchType()`, `getKeycap()`, dan `display()`.
+
+2. Switch
+
+   - Memiliki atribut `type`, dan `actuationForce`.
+   - Memiliki method `getType()`, dan `getActuationForce()`.
+
+3. Keycap
+
+   - Memiliki atribut `material`, dan `profile`.
+   - Memiliki method `getMaterial()`, dan `getProfile()`.
+
+4. KeyboardManager
+   - Memiliki atribut `keyboards`.
+   - Memiliki method `getKeyboardSize()`, `addKeyboard()`, `showAllKeyboards()`, `showNameOfAllKeyboards()`, `updateKeyboard()`, dan `deleteKeyboard()`.

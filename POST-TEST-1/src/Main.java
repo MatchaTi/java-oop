@@ -50,15 +50,15 @@ public class Main {
                         break;
                     }
                     scanner.nextLine();
-                    System.out.print("Enter new keyboard name: ");
+                    System.out.print("Enter new keyboard name\t\t\t: ");
                     String newName = scanner.nextLine();
-                    System.out.print("Enter new switch type: ");
+                    System.out.print("Enter new switch type\t\t\t: ");
                     String newSwitchType = scanner.nextLine();
-                    System.out.print("Enter new switch actuation force: ");
+                    System.out.print("Enter new switch actuation force\t: ");
                     String newActuationForce = scanner.nextLine();
-                    System.out.print("Enter new keycap material: ");
+                    System.out.print("Enter new keycap material\t\t: ");
                     String newMaterial = scanner.nextLine();
-                    System.out.print("Enter new keycap profile: ");
+                    System.out.print("Enter new keycap profile\t\t: ");
                     String newProfile = scanner.nextLine();
 
                     Switch newSwitch = new Switch(newSwitchType, newActuationForce);
