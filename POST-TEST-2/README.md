@@ -1,4 +1,4 @@
-# Post Test 1 - OOP
+# Post Test 2 - OOP
 
 Adi Muhammad Syifai
 2309106065
